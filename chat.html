@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅</title>
+    <link rel="stylesheet" href="/nemo.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div id="chatSection">
+        <div id="channelList"></div>
+        <div id="chatWindow" style="display: none;">
+            <div id="chatHeader"></div>
+            <div id="chatMessages"></div>
+            <input type="text" id="messageInput" placeholder="메시지를 입력하세요">
+            <button id="sendButton">전송</button>
+        </div>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+</html>
+
